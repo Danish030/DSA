@@ -28,6 +28,14 @@ This repository contains well-documented solutions to various LeetCode problems,
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
+### 4. **Best Time to Buy and Sell Stock**
+- **File**: `Array/besttimebuyandsellStocks.js`
+- **LeetCode Problem**: #121
+- **Difficulty**: Easy
+- **Approach**: Two Pointer Technique (Buy-Sell Pointers)
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
 ## 🧠 Key Concepts Covered
 
 ### Two Pointer Technique
@@ -35,12 +43,14 @@ All solutions utilize the **Two Pointer Technique**, which is a fundamental algo
 
 - **Slow-Fast Pointers**: Used in array modification problems
 - **Left-Right Pointers**: Used in symmetric operations like reversing
+- **Buy-Sell Pointers**: Used in optimization problems like stock trading
 - **In-place Operations**: Memory-efficient solutions without extra space
 
 ### Common Patterns
 1. **Array Modification**: Removing elements while maintaining order
 2. **String Manipulation**: Character swapping and reversing
 3. **Duplicate Handling**: Efficient removal from sorted arrays
+4. **Optimization Problems**: Finding maximum profit with constraints
 
 ## 🔧 How to Run
 
@@ -51,6 +61,7 @@ Each file can be executed independently:
 node removeDuplicates.js
 node removeElements.js
 node reverseString.js
+node Array/besttimebuyandsellStocks.js
 ```
 
 ## 📖 Documentation Structure
@@ -96,6 +107,8 @@ After studying these solutions, you will understand:
 - **Time/Space Complexity**: Analyze and optimize algorithm performance
 - **Code Documentation**: Write clear, professional code documentation
 - **Problem-Solving Approach**: Systematic way to tackle algorithmic challenges
+- **Optimization Problems**: Find maximum/minimum values with constraints
+- **Greedy Algorithms**: Make locally optimal choices for global optimization
 
 ## 📝 Code Quality Standards
 
