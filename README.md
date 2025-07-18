@@ -36,12 +36,20 @@ This repository contains well-documented solutions to various LeetCode problems,
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
+### 5. **Move Zeroes**
+- **File**: `Array/moveZeroes.js`
+- **LeetCode Problem**: #283
+- **Difficulty**: Easy
+- **Approach**: Two Pointer Technique (Slow-Fast Pointers)
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
 ## 🧠 Key Concepts Covered
 
 ### Two Pointer Technique
 All solutions utilize the **Two Pointer Technique**, which is a fundamental algorithmic pattern:
 
-- **Slow-Fast Pointers**: Used in array modification problems
+- **Slow-Fast Pointers**: Used in array modification and rearrangement problems
 - **Left-Right Pointers**: Used in symmetric operations like reversing
 - **Buy-Sell Pointers**: Used in optimization problems like stock trading
 - **In-place Operations**: Memory-efficient solutions without extra space
@@ -50,7 +58,8 @@ All solutions utilize the **Two Pointer Technique**, which is a fundamental algo
 1. **Array Modification**: Removing elements while maintaining order
 2. **String Manipulation**: Character swapping and reversing
 3. **Duplicate Handling**: Efficient removal from sorted arrays
-4. **Optimization Problems**: Finding maximum profit with constraints
+4. **Array Rearrangement**: Moving elements to specific positions
+5. **Optimization Problems**: Finding maximum profit with constraints
 
 ## 🔧 How to Run
 
@@ -62,6 +71,7 @@ node removeDuplicates.js
 node removeElements.js
 node reverseString.js
 node Array/besttimebuyandsellStocks.js
+node moveZeroes.js
 ```
 
 ## 📖 Documentation Structure
@@ -107,8 +117,6 @@ After studying these solutions, you will understand:
 - **Time/Space Complexity**: Analyze and optimize algorithm performance
 - **Code Documentation**: Write clear, professional code documentation
 - **Problem-Solving Approach**: Systematic way to tackle algorithmic challenges
-- **Optimization Problems**: Find maximum/minimum values with constraints
-- **Greedy Algorithms**: Make locally optimal choices for global optimization
 
 ## 📝 Code Quality Standards
 
