@@ -44,10 +44,30 @@ This repository contains well-documented solutions to various LeetCode problems,
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
+### 6. **Max Consecutive Ones**
+- **File**: `Array/maxConsectutive1s.js`
+- **LeetCode Problem**: #485
+- **Difficulty**: Easy
+- **Approach**: Single Pass with Counter Tracking
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
 ## 🧠 Key Concepts Covered
 
 ### Two Pointer Technique
-All solutions utilize the **Two Pointer Technique**, which is a fundamental algorithmic pattern:
+Most solutions utilize the **Two Pointer Technique**, which is a fundamental algorithmic pattern:
+
+- **Slow-Fast Pointers**: Used in array modification and rearrangement problems
+- **Left-Right Pointers**: Used in symmetric operations like reversing
+- **Buy-Sell Pointers**: Used in optimization problems like stock trading
+- **In-place Operations**: Memory-efficient solutions without extra space
+
+### Counter Tracking
+Some solutions use **Counter Tracking** for sequence analysis:
+
+- **Consecutive Element Counting**: Track sequences of similar elements
+- **Maximum Value Tracking**: Maintain running maximum during iteration
+- **State Reset Logic**: Reset counters at sequence boundaries
 
 - **Slow-Fast Pointers**: Used in array modification and rearrangement problems
 - **Left-Right Pointers**: Used in symmetric operations like reversing
@@ -60,6 +80,7 @@ All solutions utilize the **Two Pointer Technique**, which is a fundamental algo
 3. **Duplicate Handling**: Efficient removal from sorted arrays
 4. **Array Rearrangement**: Moving elements to specific positions
 5. **Optimization Problems**: Finding maximum profit with constraints
+6. **Sequence Analysis**: Finding patterns and consecutive elements
 
 ## 🔧 How to Run
 
@@ -67,11 +88,12 @@ Each file can be executed independently:
 
 ```bash
 # Run individual solutions
-node removeDuplicates.js
-node removeElements.js
-node reverseString.js
+node Array/removeDuplicates.js
+node Array/removeElements.js
+node Array/reverseString.js
 node Array/besttimebuyandsellStocks.js
-node moveZeroes.js
+node Array/moveZeroes.js
+node Array/maxConsectutive1s.js
 ```
 
 ## 📖 Documentation Structure
@@ -113,6 +135,7 @@ Each solution file contains:
 After studying these solutions, you will understand:
 
 - **Two Pointer Technique**: Master this fundamental algorithmic pattern
+- **Counter Tracking**: Efficiently analyze sequences and patterns
 - **In-place Array Manipulation**: Efficiently modify arrays without extra space
 - **Time/Space Complexity**: Analyze and optimize algorithm performance
 - **Code Documentation**: Write clear, professional code documentation
