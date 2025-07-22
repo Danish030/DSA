@@ -76,14 +76,31 @@ This repository contains well-documented solutions to various LeetCode problems,
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
+### 10. **Reverse Array**
+- **File**: `Array/reverseArray.js`
+- **Problem Type**: Array Manipulation
+- **Difficulty**: Easy
+- **Approach**: Two Pointer Technique (In-place Swapping)
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
+### 11. **Rotate Array**
+- **File**: `Array/rotateArray.js`
+- **LeetCode Problem**: #189
+- **Difficulty**: Medium
+- **Approach**: Three-Step Reversal Method (Optimal)
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
 ## 🧠 Key Concepts Covered
 
 ### Two Pointer Technique
 Most solutions utilize the **Two Pointer Technique**, which is a fundamental algorithmic pattern:
 
 - **Slow-Fast Pointers**: Used in array modification and rearrangement problems
-- **Left-Right Pointers**: Used in symmetric operations like reversing
+- **Left-Right Pointers**: Used in symmetric operations like reversing and palindromes
 - **Buy-Sell Pointers**: Used in optimization problems like stock trading
+- **Convergent Pointers**: Start from ends and move toward center for in-place operations
 - **In-place Operations**: Memory-efficient solutions without extra space
 
 ### Counter Tracking
@@ -131,6 +148,7 @@ Efficient single-pass solutions using **Smart Tracking**:
 7. **Missing Element Detection**: Using mathematical or bit manipulation approaches
 8. **Unique Element Finding**: Leveraging XOR properties for single occurrence detection
 9. **Extremum Finding**: Efficiently finding maximum, minimum, or nth largest elements
+10. **Symmetric Operations**: In-place reversal and palindrome-related problems
 
 ## 🔧 How to Run
 
@@ -147,6 +165,8 @@ node Array/maxConsectutive1s.js
 node Array/missingNumber.js
 node Array/singleNumber.js
 node Array/secondLargest.js
+node Array/reverseArray.js
+node Array/rotateArray.js
 ```
 
 ## 📖 Documentation Structure
@@ -187,14 +207,16 @@ Each solution file contains:
 
 After studying these solutions, you will understand:
 
-- **Two Pointer Technique**: Master this fundamental algorithmic pattern
+- **Two Pointer Technique**: Master this fundamental algorithmic pattern including convergent pointers
 - **Counter Tracking**: Efficiently analyze sequences and patterns
 - **Mathematical Optimization**: Use formulas and properties for efficient solutions
 - **Bit Manipulation Mastery**: Apply XOR and other bitwise operations for elegant solutions
 - **XOR Properties**: Understand self-cancellation and unique element detection
 - **Array Traversal Optimization**: Single-pass solutions with smart variable tracking
+- **In-Place Algorithms**: Modify data structures without using extra space
+- **Symmetric Operations**: Handle reversal, rotation, and palindrome problems
 - **Edge Case Handling**: Proper management of boundary conditions and special cases
-- **In-place Array Manipulation**: Efficiently modify arrays without extra space
+- **Swapping Techniques**: Multiple methods for element exchange (temp variable, destructuring, XOR)
 - **Time/Space Complexity**: Analyze and optimize algorithm performance
 - **Multiple Solution Approaches**: Consider different strategies for the same problem
 - **Code Documentation**: Write clear, professional code documentation
