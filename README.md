@@ -100,6 +100,14 @@ This repository contains well-documented solutions to various LeetCode problems,
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)
 
+### 13. **Rotate Array Left (Counterclockwise)**
+- **File**: `Array/rotateArrayCountercwise.js`
+- **Problem Type**: Array Manipulation
+- **Difficulty**: Easy
+- **Approach**: Array Slicing and Concatenation
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(n)
+
 ## 🧠 Key Concepts Covered
 
 ### Two Pointer Technique
@@ -149,6 +157,14 @@ Powerful technique for **O(1) Lookup Operations**:
 - **One-Pass vs Two-Pass**: Trade-offs between clarity and efficiency
 - **Space-Time Tradeoff**: Use O(n) space to achieve O(1) lookup time
 
+### Array Slicing and Manipulation
+Efficient array restructuring using **Built-in Methods**:
+
+- **Strategic Slicing**: Use slice() to split arrays at specific positions
+- **Concatenation Patterns**: Combine array segments in different orders
+- **Modulo Operations**: Handle cases where rotation exceeds array length
+- **Functional Approach**: Create new arrays without modifying originals
+
 - **Slow-Fast Pointers**: Used in array modification and rearrangement problems
 - **Left-Right Pointers**: Used in symmetric operations like reversing
 - **Buy-Sell Pointers**: Used in optimization problems like stock trading
@@ -166,6 +182,7 @@ Powerful technique for **O(1) Lookup Operations**:
 9. **Extremum Finding**: Efficiently finding maximum, minimum, or nth largest elements
 10. **Symmetric Operations**: In-place reversal and palindrome-related problems
 11. **Pair Finding**: Using hash maps to find elements that satisfy sum conditions
+12. **Rotation Operations**: Left and right array rotations using various techniques
 
 ## 🔧 How to Run
 
@@ -185,6 +202,7 @@ node Array/secondLargest.js
 node Array/reverseArray.js
 node Array/rotateArray.js
 node Array/2sum.js
+node Array/rotateArrayCountercwise.js
 ```
 
 ## 📖 Documentation Structure
@@ -227,12 +245,14 @@ After studying these solutions, you will understand:
 
 - **Two Pointer Technique**: Master this fundamental algorithmic pattern including convergent pointers
 - **Hash Map Mastery**: Use hash maps for O(1) lookups and complement-based problem solving
+- **Array Slicing Mastery**: Efficiently restructure arrays using slice() and concat() methods
 - **Counter Tracking**: Efficiently analyze sequences and patterns
 - **Mathematical Optimization**: Use formulas and properties for efficient solutions
 - **Bit Manipulation Mastery**: Apply XOR and other bitwise operations for elegant solutions
 - **XOR Properties**: Understand self-cancellation and unique element detection
 - **Array Traversal Optimization**: Single-pass solutions with smart variable tracking
 - **In-Place Algorithms**: Modify data structures without using extra space
+- **Rotation Techniques**: Master both left and right array rotation methods
 - **Symmetric Operations**: Handle reversal, rotation, and palindrome problems
 - **Space-Time Tradeoffs**: When to use extra space for better time complexity
 - **Complement Pattern**: Think backwards - find what you need instead of what you have
