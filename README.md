@@ -92,6 +92,14 @@ This repository contains well-documented solutions to various LeetCode problems,
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
+### 12. **Two Sum**
+- **File**: `Array/2sum.js`
+- **LeetCode Problem**: #1
+- **Difficulty**: Easy
+- **Approach**: Hash Map One-Pass (Optimal)
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(n)
+
 ## 🧠 Key Concepts Covered
 
 ### Two Pointer Technique
@@ -133,6 +141,14 @@ Efficient single-pass solutions using **Smart Tracking**:
 - **Duplicate Awareness**: Handle repeated elements correctly
 - **Single-Pass Efficiency**: Solve problems in one iteration when possible
 
+### Hash Map Optimization
+Powerful technique for **O(1) Lookup Operations**:
+
+- **Complement Pattern**: Store what you've seen, look for what you need
+- **Index Mapping**: Map values to their positions for quick retrieval
+- **One-Pass vs Two-Pass**: Trade-offs between clarity and efficiency
+- **Space-Time Tradeoff**: Use O(n) space to achieve O(1) lookup time
+
 - **Slow-Fast Pointers**: Used in array modification and rearrangement problems
 - **Left-Right Pointers**: Used in symmetric operations like reversing
 - **Buy-Sell Pointers**: Used in optimization problems like stock trading
@@ -149,6 +165,7 @@ Efficient single-pass solutions using **Smart Tracking**:
 8. **Unique Element Finding**: Leveraging XOR properties for single occurrence detection
 9. **Extremum Finding**: Efficiently finding maximum, minimum, or nth largest elements
 10. **Symmetric Operations**: In-place reversal and palindrome-related problems
+11. **Pair Finding**: Using hash maps to find elements that satisfy sum conditions
 
 ## 🔧 How to Run
 
@@ -167,6 +184,7 @@ node Array/singleNumber.js
 node Array/secondLargest.js
 node Array/reverseArray.js
 node Array/rotateArray.js
+node Array/2sum.js
 ```
 
 ## 📖 Documentation Structure
@@ -208,6 +226,7 @@ Each solution file contains:
 After studying these solutions, you will understand:
 
 - **Two Pointer Technique**: Master this fundamental algorithmic pattern including convergent pointers
+- **Hash Map Mastery**: Use hash maps for O(1) lookups and complement-based problem solving
 - **Counter Tracking**: Efficiently analyze sequences and patterns
 - **Mathematical Optimization**: Use formulas and properties for efficient solutions
 - **Bit Manipulation Mastery**: Apply XOR and other bitwise operations for elegant solutions
@@ -215,6 +234,8 @@ After studying these solutions, you will understand:
 - **Array Traversal Optimization**: Single-pass solutions with smart variable tracking
 - **In-Place Algorithms**: Modify data structures without using extra space
 - **Symmetric Operations**: Handle reversal, rotation, and palindrome problems
+- **Space-Time Tradeoffs**: When to use extra space for better time complexity
+- **Complement Pattern**: Think backwards - find what you need instead of what you have
 - **Edge Case Handling**: Proper management of boundary conditions and special cases
 - **Swapping Techniques**: Multiple methods for element exchange (temp variable, destructuring, XOR)
 - **Time/Space Complexity**: Analyze and optimize algorithm performance
