@@ -108,6 +108,14 @@ This repository contains well-documented solutions to various LeetCode problems,
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)
 
+### 14. **Check if Array is Sorted and Rotated**
+- **File**: `Array/sortedArray.js`
+- **LeetCode Problem**: #1752
+- **Difficulty**: Easy
+- **Approach**: Break Point Analysis (Optimal)
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+
 ## 🧠 Key Concepts Covered
 
 ### Two Pointer Technique
@@ -165,16 +173,25 @@ Efficient array restructuring using **Built-in Methods**:
 - **Modulo Operations**: Handle cases where rotation exceeds array length
 - **Functional Approach**: Create new arrays without modifying originals
 
-- **Slow-Fast Pointers**: Used in array modification and rearrangement problems
-- **Left-Right Pointers**: Used in symmetric operations like reversing
-- **Buy-Sell Pointers**: Used in optimization problems like stock trading
-- **In-place Operations**: Memory-efficient solutions without extra space
+### Pattern Recognition and Analysis
+Advanced problem-solving using **Mathematical Properties**:
 
+- **Break Point Detection**: Identify discontinuities in sequences
+- **Invariant Analysis**: Find properties that remain constant after transformations
 ### Common Patterns
 1. **Array Modification**: Removing elements while maintaining order
 2. **String Manipulation**: Character swapping and reversing
 3. **Duplicate Handling**: Efficient removal from sorted arrays
 4. **Array Rearrangement**: Moving elements to specific positions
+5. **Optimization Problems**: Finding maximum profit with constraints
+6. **Sequence Analysis**: Finding patterns and consecutive elements
+7. **Missing Element Detection**: Using mathematical or bit manipulation approaches
+8. **Unique Element Finding**: Leveraging XOR properties for single occurrence detection
+9. **Extremum Finding**: Efficiently finding maximum, minimum, or nth largest elements
+10. **Symmetric Operations**: In-place reversal and palindrome-related problems
+11. **Pair Finding**: Using hash maps to find elements that satisfy sum conditions
+12. **Rotation Operations**: Left and right array rotations using various techniques
+13. **Property Validation**: Checking array characteristics without full transformation
 5. **Optimization Problems**: Finding maximum profit with constraints
 6. **Sequence Analysis**: Finding patterns and consecutive elements
 7. **Missing Element Detection**: Using mathematical or bit manipulation approaches
@@ -203,6 +220,7 @@ node Array/reverseArray.js
 node Array/rotateArray.js
 node Array/2sum.js
 node Array/rotateArrayCountercwise.js
+node Array/sortedArray.js
 ```
 
 ## 📖 Documentation Structure
@@ -231,27 +249,30 @@ Each solution file contains:
 
 ### 5. **Execution Trace**
 - Step-by-step walkthrough
-- Visual representation of pointer movements
-- Example input/output transformations
-
-### 6. **Alternative Approaches**
-- Other possible solutions
-- Trade-offs between different methods
-- Why the chosen approach is optimal
-
-## 🎯 Learning Outcomes
-
 After studying these solutions, you will understand:
 
 - **Two Pointer Technique**: Master this fundamental algorithmic pattern including convergent pointers
 - **Hash Map Mastery**: Use hash maps for O(1) lookups and complement-based problem solving
 - **Array Slicing Mastery**: Efficiently restructure arrays using slice() and concat() methods
+- **Pattern Recognition**: Identify mathematical properties and invariants in data structures
+- **Break Point Analysis**: Detect discontinuities and validate array properties
 - **Counter Tracking**: Efficiently analyze sequences and patterns
 - **Mathematical Optimization**: Use formulas and properties for efficient solutions
 - **Bit Manipulation Mastery**: Apply XOR and other bitwise operations for elegant solutions
 - **XOR Properties**: Understand self-cancellation and unique element detection
 - **Array Traversal Optimization**: Single-pass solutions with smart variable tracking
 - **In-Place Algorithms**: Modify data structures without using extra space
+- **Rotation Techniques**: Master both left and right array rotation methods
+- **Symmetric Operations**: Handle reversal, rotation, and palindrome problems
+- **Space-Time Tradeoffs**: When to use extra space for better time complexity
+- **Complement Pattern**: Think backwards - find what you need instead of what you have
+- **Logical Deduction**: Derive mathematical conditions without brute force approaches
+- **Edge Case Handling**: Proper management of boundary conditions and special cases
+- **Swapping Techniques**: Multiple methods for element exchange (temp variable, destructuring, XOR)
+- **Time/Space Complexity**: Analyze and optimize algorithm performance
+- **Multiple Solution Approaches**: Consider different strategies for the same problem
+- **Code Documentation**: Write clear, professional code documentation
+- **Problem-Solving Approach**: Systematic way to tackle algorithmic challenges
 - **Rotation Techniques**: Master both left and right array rotation methods
 - **Symmetric Operations**: Handle reversal, rotation, and palindrome problems
 - **Space-Time Tradeoffs**: When to use extra space for better time complexity
